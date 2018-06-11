@@ -13,7 +13,7 @@ safe: true
 # edit here to achieve your personal greatness
 url: https://nguyenphi0205.github.io/
 baseurl: ./_layouts/PhiNguyen/
-Angular: /_layouts/Angular
+Angular: /Angular/
 title: Phi Nguyen
 author: Phi Nguyen
 description: Personal blog and resume
