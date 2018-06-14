@@ -176,23 +176,29 @@ body {
 div.footer{
   border-bottom: 5px solid #27A822;;
 }
+
 h1,h2,h3,h4{
   font-size: 3.7em;
-  margin-top: .4em;
-  margin-bottom: .2em;
   font-style: italic;
   font-family: "IBM Plex Mono ExtraLight", "Segoe UI", "Helvetica Neue", Helvetica, Roboto, 'Open Sans', FreeSans, sans-serif;
-  color: var(--green1);
   margin-top: .2rem;
   margin-bottom: 1rem;
   line-height: 1; 
   font-weight: 200;
+  color: #27A822;
 }
 .image-angular{
   width: 150px;
-  
+  height: auto;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
 }
-
+h3::selection{
+background:#FAE042;
+color: white;
+}
 /* Set the fixed height of the footer here */
 /*.footer {
   height: 50px;

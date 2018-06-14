@@ -30,7 +30,8 @@ body {
   border-color: #ffffff;
 }
 .navbar-default .navbar-brand {
-  color: #6b6b6b;
+  /* color: #6b6b6b; */
+  color: #27A822;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
   color: #6b6b6b;
@@ -42,7 +43,8 @@ body {
   color: #6b6b6b;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #6b6b6b;
+  /* color: #6b6b6b; */
+  color: #27A822;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #6b6b6b;
@@ -176,6 +178,9 @@ body {
 div.footer{
   border-bottom: 5px solid #27A822;;
 }
+/* my define */
+
+
 /* Set the fixed height of the footer here */
 /*.footer {
   height: 50px;
