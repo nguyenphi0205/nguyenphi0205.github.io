@@ -187,10 +187,25 @@ h1,h2,h3,h4{
   margin-bottom: 1rem;
   line-height: 1; 
   font-weight: 200;
+  color: #27A822;
 }
 .image-angular{
+  border-radius: 8px;
   width: 150px;
-  
+  height: auto;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    background:#FAE042;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+     user-select: none;
+}
+h3::selection{
+background:#FAE042;
+color: black;
 }
 
 /* Set the fixed height of the footer here */

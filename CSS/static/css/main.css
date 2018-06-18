@@ -188,7 +188,6 @@ h1,h2,h3,h4{
   color: #27A822;
 }
 .image-angular{
-  border-radius: 8px;
   width: 150px;
   height: auto;
     display: inline-block;
@@ -200,9 +199,8 @@ h1,h2,h3,h4{
     -ms-user-select: none;
      user-select: none;
 }
-
 h3::selection{
-background:#ff0000;
+background:#1a75ff;
 color: white;
 }
 /* Set the fixed height of the footer here */
