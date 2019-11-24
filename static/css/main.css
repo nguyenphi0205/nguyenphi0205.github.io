@@ -196,19 +196,19 @@ div.footer{
   border-bottom: 5px solid #27A822;;
 }
 /* my define */
-a.angular{
+.angular{
   border-bottom: 3px solid #DD0031;
 }
-a.react {
+.react {
   border-bottom: 3px solid #61dafb;
 }
-a.javascript {
+.javascript {
   border-bottom: 3px solid #F7DF1E;
 }
-a.css {
+.css {
   border-bottom: 3px solid #3399FE;
 }
-a.vue {
+.vue {
   border-bottom: 3px solid #41B883
 }
 /* Set the fixed height of the footer here */
