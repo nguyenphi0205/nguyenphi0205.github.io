@@ -1,18 +1,48 @@
-<nav class="navbar navbar-default">
+<nav class="navbar">
   <div class="container">
     <div class="navbar-header">
       <a class="navbar-brand" href="{{ site.url }}"><i class="fa fa-home"></i></a>
     </div>
     <div id="navbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="{{ site.url }}{{site.Angular}}blog.html">Angular</a></li>
-        <li><a href="{{ site.url }}{{site.React}}blog.html">React</a></li>
-        <li><a href="{{ site.baseurl }}{{site.Javascript}}blog.html">Javascript</a></li>
-        <li><a href="{{ site.baseurl }}{{site.css}}blog.html">CSS</a></li>
-        <li><a href="{{ site.url }}{{site.About-me}}about-me.html">About me</a></li>
-        <li><a href="{{ site.baseurl }}projects.html">PROJECTS</a></li>
-        <!-- <li><a href="http://biomadeira.github.io/vitae">RESUME</a></li> -->
+        <li><a class="angular" href="{{ site.url }}{{site.Angular}}blog.html">Angular</a></li>
+        <li><a class="react" href="{{ site.url }}{{site.React}}blog.html">React</a></li>
+        <li><a class="vue" href="{{ site.url }}{{site.React}}blog.html">Vue.js</a></li>
+        <li><a class="javascript" href="{{ site.baseurl }}{{site.Javascript}}blog.html">Javascript</a></li>
+        <li><a class="css" href="{{ site.baseurl }}{{site.css}}blog.html">CSS</a></li>
+        <li><a class="about-me" href="{{ site.url }}{{site.About-me}}about-me.html">About me</a></li>
+        <li><a class="project" href="{{ site.baseurl }}projects.html">PROJECTS</a></li>
+        <li>
+          <div class="theme-switch-wrapper">
+              <label class="theme-switch" for="checkbox">
+           <input type="checkbox" id="checkbox" />
+           <div class="slider round"></div>
+         </label>
+         </div>
+        </li>
       </ul>
     </div>
+    <script type="text/javascript">const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+      const currentTheme = localStorage.getItem('theme');
+      
+      if (currentTheme) {
+          document.documentElement.setAttribute('data-theme', currentTheme);
+        
+          if (currentTheme === 'dark') {
+              toggleSwitch.checked = true;
+          }
+      }
+      function switchTheme(e) {
+          if (e.target.checked) {
+            document.querySelector('body').classList.add('dark')
+              // document.documentElement.setAttribute('data-theme', 'dark');
+              localStorage.setItem('theme', 'dark');
+          }
+          else {        
+            document.querySelector('body').classList.remove('dark')
+            // document.documentElement.setAttribute('data-theme', 'light');
+            localStorage.setItem('theme', 'light');
+          }    
+      }toggleSwitch.addEventListener('change', switchTheme, false);</script>
   </div>
 </nav>

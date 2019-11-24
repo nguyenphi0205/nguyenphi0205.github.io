@@ -27,7 +27,7 @@ body {
 }
 .navbar-default {
   background-color: #ffffff;
-  border-color: #ffffff;
+  /* border-color: #ffffff; */
 }
 .navbar-default .navbar-brand {
   color: #6b6b6b;
@@ -53,7 +53,7 @@ body {
   background-color: #ffffff;
 }
 .navbar-default .navbar-toggle {
-  border-color: #ffffff;
+  /* border-color: #ffffff; */
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: #ffffff;
@@ -63,7 +63,7 @@ body {
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #6b6b6b;
+  /* border-color: #6b6b6b; */
 }
 .navbar-default .navbar-link {
   color: #6b6b6b;
