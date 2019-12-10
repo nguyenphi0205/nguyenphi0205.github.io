@@ -1,6 +1,11 @@
-## My site
-This is my blog website. 
+## My blog
+This is my blog website. So what news in my blog. well, not much! 
+- How to be a millionaire.
+- How to be a real playboy.
+- How to create an iron armour.
+- How to attract a girl like a playboy. 
 
+That is a blog of Tony Stark. I am just a normal man who falls into love with Javascript and a frameworks of it. So my blog does not have those kinds of the stuff above it only have my experiment of Javascript and frameworks of it. So if I have something wrong lets me know it. Thank you <3
 
 ## Thanks 
 
